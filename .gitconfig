@@ -2,8 +2,8 @@
 	defaultBranch = main
 
 [user]
-	name = Wouter De Schuyter
-	email = wouter.de.schuyter@gmail.com
+	name = Jan Van der Taelen
+	email = jan.vandertaelen@craftzing.com
 
 [alias]
 	diff = diff --color --color-words --abbrev

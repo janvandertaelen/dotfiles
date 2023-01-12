@@ -6,9 +6,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Set computer name (as done via System Preferences → Sharing)
 sudo scutil --set ComputerName "Jan Van der Taelen MacBook Pro"
-sudo scutil --set HostName "macbook-pro-jan-van-der-taelen"
-sudo scutil --set LocalHostName "macbook-pro-jan-van-der-taelen"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "macbook-pro-jan-van-der-taelen"
+sudo scutil --set HostName "macbook-pro-janvandertaelen"
+sudo scutil --set LocalHostName "macbook-pro-janvandertaelen"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "macbook-pro-janvandertaelen"
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1

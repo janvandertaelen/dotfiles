@@ -26,7 +26,7 @@ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 echo "include $install_path/*.nanorc" >> ~/.nanorc
 
 # Terminal
-open init/jan-van-der-taelen.terminal
+open init/janvandertaelen.terminal
 
 # Cleanup
 brew cleanup
